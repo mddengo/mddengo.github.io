@@ -1,0 +1,36 @@
+$background-color: #fdfff9;
+$black-text: #222b28;
+$footer-height: 60px;
+
+.splash {
+    height: 100%;
+    width: 100%;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        font-family: "Source Sans Pro", sans-serif;
+        color: $black-text;
+        text-align: center;
+    }
+
+    body {
+        margin-bottom: $footer-height;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: $footer-height;
+        background-color: #ffffff;
+
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
+        }
+    }
+}
+
