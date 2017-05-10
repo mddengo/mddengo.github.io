@@ -1,36 +1,47 @@
-$background-color: #fdfff9;
-$black-text: #222b28;
+@import 'styles.scss';
+
 $footer-height: 60px;
 
 .splash {
-    height: 100%;
-    width: 100%;
-    background-color: $background-color;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
 
+  .container {
+    position: relative;
     h1 {
-        font-family: "Source Sans Pro", sans-serif;
-        color: $black-text;
-        text-align: center;
+      font-size: 4em;
+      margin-top: 15%;
+      color: $black-text;
+      text-align: center;
+      letter-spacing: 0.1em;
     }
 
-    body {
-        margin-bottom: $footer-height;
+    .nav-links {
+      margin-top: 20px;
+      position: relative;
+      font-size: 1.5em;
+      letter-spacing: 0.2em;
     }
+  }
 
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: $footer-height;
-        background-color: #ffffff;
+  body {
+    margin-bottom: $footer-height;
+  }
 
-        .container {
-            width: auto;
-            max-width: 680px;
-            padding: 0 15px;
-        }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+    background-color: pink;
+
+    .container {
+      width: auto;
+      max-width: 680px;
+      padding: 0 15px;
     }
+  }
 }
 
