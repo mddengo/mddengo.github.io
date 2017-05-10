@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
-/* line 6, ../sass/styles.scss */
+/* line 7, ../sass/styles.scss */
 * {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* line 10, ../sass/styles.scss */
+/* line 11, ../sass/styles.scss */
 html, body {
   height: 100%;
   background-color: #fdfff9;
 }
 
-/* line 14, ../sass/styles.scss */
+/* line 15, ../sass/styles.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45;
 }
@@ -33,6 +33,15 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
 }
 /* line 13, ../sass/index.scss */
+.splash .container a {
+  color: #222b28;
+}
+/* line 17, ../sass/index.scss */
+.splash .container a:hover {
+  color: #647eed;
+  text-decoration: none;
+}
+/* line 22, ../sass/index.scss */
 .splash .container h1 {
   font-size: 4em;
   margin-top: 15%;
@@ -40,18 +49,18 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   letter-spacing: 0.1em;
 }
-/* line 21, ../sass/index.scss */
+/* line 30, ../sass/index.scss */
 .splash .container .nav-links {
   margin-top: 20px;
   position: relative;
   font-size: 1.5em;
   letter-spacing: 0.2em;
 }
-/* line 29, ../sass/index.scss */
+/* line 38, ../sass/index.scss */
 .splash body {
   margin-bottom: 60px;
 }
-/* line 33, ../sass/index.scss */
+/* line 42, ../sass/index.scss */
 .splash .footer {
   position: absolute;
   bottom: 0;
@@ -59,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 60px;
   background-color: pink;
 }
-/* line 40, ../sass/index.scss */
+/* line 49, ../sass/index.scss */
 .splash .footer .container {
   width: auto;
   max-width: 680px;

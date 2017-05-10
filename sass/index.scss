@@ -10,6 +10,15 @@ $footer-height: 60px;
 
   .container {
     position: relative;
+    a {
+      color: $black-text;
+    }
+
+    a:hover {
+      color: $link-hover;
+      text-decoration: none;
+    }
+
     h1 {
       font-size: 4em;
       margin-top: 15%;
