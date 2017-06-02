@@ -5,4 +5,61 @@
   background-color: $background-color;
   margin: 0;
   padding: 0;
+
+  .nav-container {
+    position: relative;
+
+    a {
+      color: $black-text;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $link-hover;
+      text-decoration: none;
+    }
+    .me {
+      font-size: 2em;
+      margin-top: 1em;
+      color: $black-text;
+      text-align: center;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-links {
+      margin-top: 10px;
+      position: relative;
+      font-size: .75em;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  .content-container {
+    .about-text {
+      float: left;
+      width: 30%;
+      text-align: justify;
+      text-justify: inter-word;
+      padding: 6% 0 0 20%;
+
+      a {
+        color: $black-text;
+      }
+
+      a:hover {
+        color: $link-hover;
+        text-decoration: none;
+      }
+    }
+
+    .about-pic {
+      padding: 6% 20% 0 0;
+      width: 25%;
+      content: url($img-link-base + 'me.jpg');
+      display: block;
+      float: right;
+    }
+    .caption {
+      font-size: .5em;
+    }
+  }
 }
