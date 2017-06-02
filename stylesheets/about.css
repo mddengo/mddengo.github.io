@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
+/* line 7, ../sass/styles.scss */
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 11, ../sass/styles.scss */
+html, body {
+  height: 100%;
+  background-color: #fdfff9;
+}
+
+/* line 15, ../sass/styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, ../sass/styles.scss */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.45;
+}
+
+/* line 3, ../sass/about.scss */
+.about {
+  height: 100%;
+  background-color: #fdfff9;
+  margin: 0;
+  padding: 0;
+}
