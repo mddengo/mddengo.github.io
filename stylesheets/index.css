@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /* line 22, ../sass/index.scss */
 .splash .container h1 {
-  font-size: 1.5em;
+  font-size: 4em;
   margin-top: 15%;
   color: #222b28;
   text-align: center;
@@ -54,14 +54,17 @@ h1, h2, h3, h4, h5, h6, p {
 .splash .container .nav-links {
   margin-top: 20px;
   position: relative;
+}
+/* line 33, ../sass/index.scss */
+.splash .container .nav-links p {
   font-size: .5em;
   letter-spacing: 0.2em;
 }
-/* line 38, ../sass/index.scss */
+/* line 40, ../sass/index.scss */
 .splash body {
   margin-bottom: 60px;
 }
-/* line 42, ../sass/index.scss */
+/* line 44, ../sass/index.scss */
 .splash .footer {
   position: absolute;
   bottom: 0;
@@ -69,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 60px;
   background-color: pink;
 }
-/* line 49, ../sass/index.scss */
+/* line 51, ../sass/index.scss */
 .splash .footer .container {
   width: auto;
   max-width: 680px;

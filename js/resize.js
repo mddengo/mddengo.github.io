@@ -5,8 +5,12 @@ $('body').flowtype({
     // maxFont   : 40,
     // fontRatio : 20
 }),
-$('container').flowtype({
-    minFont: 24,
-    maxFont: 36,
-    fontRatio: 20
+$('h1').flowtype({
+    minFont: 20,
+    maxFont: 48,
+    fontRatio: 10
+}),
+$('p').flowtype({
+    minFont: 7,
+    maxFont: 16,
 });
