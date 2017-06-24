@@ -15,27 +15,11 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  font-size: 18px;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45;
-}
-
-/* line 27, ../sass/styles.scss */
-h1 {
-  font-size: 4em;
-}
-
-/* line 31, ../sass/styles.scss */
-h2 {
-  font-size: 3em;
-}
-
-/* line 35, ../sass/styles.scss */
-p {
-  font-size: 18px;
 }
 
 /* line 5, ../sass/index.scss */
@@ -60,7 +44,7 @@ p {
 }
 /* line 22, ../sass/index.scss */
 .splash .container h1 {
-  font-size: 4em;
+  font-size: 1.5em;
   margin-top: 15%;
   color: #222b28;
   text-align: center;
@@ -70,7 +54,7 @@ p {
 .splash .container .nav-links {
   margin-top: 20px;
   position: relative;
-  font-size: 1.25em;
+  font-size: .5em;
   letter-spacing: 0.2em;
 }
 /* line 38, ../sass/index.scss */
