@@ -20,15 +20,17 @@
     }
     .me {
       color: $black-text;
-      h1 {
-        font-size: 3em;
-        letter-spacing: 0.1em;
-      }
+      font-size: 1.3em;
+      letter-spacing: 0.1em;
+      //h1 {
+      //  font-size: 3em;
+      //  letter-spacing: 0.1em;
+      //}
     }
 
     .nav-links {
       position: relative;
-      font-size: 18px;
+      font-size: .5em;
       letter-spacing: 0.2em;
     }
   }
