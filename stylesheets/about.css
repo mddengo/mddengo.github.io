@@ -46,14 +46,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /* line 21, ../sass/about.scss */
 .about .nav-container .me {
-  font-size: 48px;
   color: #222b28;
-  text-align: center;
+}
+/* line 23, ../sass/about.scss */
+.about .nav-container .me h1 {
+  font-size: 3em;
   letter-spacing: 0.1em;
 }
-/* line 28, ../sass/about.scss */
+/* line 29, ../sass/about.scss */
 .about .nav-container .nav-links {
-  margin-top: 10px;
   position: relative;
   font-size: 18px;
   letter-spacing: 0.2em;
@@ -61,22 +62,22 @@ h1, h2, h3, h4, h5, h6, p {
 /* line 37, ../sass/about.scss */
 .about .content-container .about-text {
   float: left;
-  width: 20em;
+  width: 30%;
   text-align: justify;
   text-justify: inter-word;
   padding: 6% 0 0 20%;
-  font-size: 16px;
+  font-size: .4em;
 }
-/* line 45, ../sass/about.scss */
+/* line 49, ../sass/about.scss */
 .about .content-container .about-text a {
   color: #222b28;
 }
-/* line 49, ../sass/about.scss */
+/* line 53, ../sass/about.scss */
 .about .content-container .about-text a:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 55, ../sass/about.scss */
+/* line 59, ../sass/about.scss */
 .about .content-container .about-pic {
   padding: 6% 20% 0 0;
   width: 25%;
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
   float: right;
 }
-/* line 62, ../sass/about.scss */
+/* line 66, ../sass/about.scss */
 .about .content-container .caption {
   font-size: .5em;
 }

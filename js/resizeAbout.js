@@ -1,15 +1,16 @@
 $('body').flowtype({
 }),
-$('me').flowtype({
+$('h1').flowtype({
     minFont: 20,
-    maxFont: 24,
+    maxFont: 36,
+    fontRatio: 10
 }),
-// $('content-container').flowtype({
-//     minimum: 200,
-//     maximum: 800
-// }),
-$('p').flowtype({
-    minFont: 5,
-    maxFont: 14,
-    fontRatio: 5
+$('nav-links').flowtype({
+    minFont: 7,
+    maxFont: 18,
+    // fontRatio: 5
+}),
+$('about-text').flowtype({
+    minFont: 10,
+    maxFont: 14
 });

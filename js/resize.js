@@ -1,9 +1,4 @@
 $('body').flowtype({
-    // minimum : 500,
-    // maximum : 1200,
-    // minFont   : 12,
-    // maxFont   : 40,
-    // fontRatio : 20
 }),
 $('h1').flowtype({
     minFont: 20,

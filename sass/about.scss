@@ -19,14 +19,14 @@
       text-decoration: none;
     }
     .me {
-      font-size: 48px;
       color: $black-text;
-      text-align: center;
-      letter-spacing: 0.1em;
+      h1 {
+        font-size: 3em;
+        letter-spacing: 0.1em;
+      }
     }
 
     .nav-links {
-      margin-top: 10px;
       position: relative;
       font-size: 18px;
       letter-spacing: 0.2em;
@@ -36,11 +36,15 @@
   .content-container {
     .about-text {
       float: left;
-      width: 20em;
+      width: 30%;
       text-align: justify;
       text-justify: inter-word;
       padding: 6% 0 0 20%;
-      font-size: 16px;
+      font-size: .4em;
+
+      //p {
+      //  font-size: 1em;
+      //}
 
       a {
         color: $black-text;
