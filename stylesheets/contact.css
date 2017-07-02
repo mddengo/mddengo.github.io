@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
+/* line 8, ../sass/styles.scss */
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 12, ../sass/styles.scss */
+html, body {
+  height: 100%;
+  background-color: #fdfff9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 17, ../sass/styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 22, ../sass/styles.scss */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.45;
+}
+
+/* line 3, ../sass/contact.scss */
+.contact {
+  height: 100%;
+  background-color: #fdfff9;
+  margin: 0;
+  padding: 0;
+}
+/* line 9, ../sass/contact.scss */
+.contact .nav-container {
+  position: relative;
+  margin-top: 1em;
+}
+/* line 13, ../sass/contact.scss */
+.contact .nav-container a {
+  color: #222b28;
+  text-decoration: none;
+}
+/* line 17, ../sass/contact.scss */
+.contact .nav-container a:hover {
+  color: #647eed;
+  text-decoration: none;
+}
+/* line 21, ../sass/contact.scss */
+.contact .nav-container .me {
+  color: #222b28;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+/* line 31, ../sass/contact.scss */
+.contact .nav-container .nav-links {
+  position: relative;
+  font-size: .5em;
+  letter-spacing: 0.2em;
+}
+/* line 38, ../sass/contact.scss */
+.contact .contact-text {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+/* line 43, ../sass/contact.scss */
+.contact .icons {
+  padding-top: 10%;
+}
+/* line 45, ../sass/contact.scss */
+.contact .icons .fa {
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fdfff9;
+  color: #222b28;
+}
+/* line 54, ../sass/contact.scss */
+.contact .icons .fa:hover {
+  background-color: #647eed;
+  color: #fdfff9;
+}

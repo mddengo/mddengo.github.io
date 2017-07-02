@@ -1,0 +1,60 @@
+@import 'styles.scss';
+
+.contact {
+  height: 100%;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+
+  .nav-container {
+    position: relative;
+    margin-top: 1em;
+
+    a {
+      color: $black-text;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $link-hover;
+      text-decoration: none;
+    }
+    .me {
+      color: $black-text;
+      font-size: 1.3em;
+      letter-spacing: 0.1em;
+      //h1 {
+      //  font-size: 3em;
+      //  letter-spacing: 0.1em;
+      //}
+    }
+
+    .nav-links {
+      position: relative;
+      font-size: .5em;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  .contact-text {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  .icons {
+    padding-top: 10%;
+    .fa {
+      padding: 50px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      //border-radius: 50%;
+      background-color: $background-color;
+      color: $black-text;
+    }
+    .fa:hover {
+      background-color: $link-hover;
+      color: $background-color;
+    }
+  }
+
+}
