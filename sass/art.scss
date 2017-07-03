@@ -1,0 +1,61 @@
+@import 'styles.scss';
+
+
+.art-container {
+  height: 100%;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+
+  .nav-container {
+    position: relative;
+    margin-top: 1em;
+
+    .active {
+      text-decoration: underline;
+    }
+
+    a {
+      color: $black-text;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $link-hover;
+      text-decoration: none;
+    }
+    .me {
+      color: $black-text;
+      font-size: 1.3em;
+      letter-spacing: 0.1em;
+      //h1 {
+      //  font-size: 3em;
+      //  letter-spacing: 0.1em;
+      //}
+    }
+
+    .nav-links {
+      position: relative;
+      font-size: .5em;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  #wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    #gallery {
+      overflow:hidden;
+
+      a {
+        display: block;
+        float: left;
+        img {
+          display: block;
+          border: 0;
+        }
+      }
+
+    }
+  }
+}

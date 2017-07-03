@@ -60,3 +60,23 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: .5em;
   letter-spacing: 0.2em;
 }
+/* line 43, ../sass/art.scss */
+.art-container #wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 47, ../sass/art.scss */
+.art-container #wrapper #gallery {
+  overflow: hidden;
+}
+/* line 50, ../sass/art.scss */
+.art-container #wrapper #gallery a {
+  display: block;
+  float: left;
+}
+/* line 53, ../sass/art.scss */
+.art-container #wrapper #gallery a img {
+  display: block;
+  border: 0;
+}
