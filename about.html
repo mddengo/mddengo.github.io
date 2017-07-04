@@ -9,48 +9,75 @@
     <title>about | michelle</title>
 
     <script type="text/javascript" src=https://code.jquery.com/jquery-3.2.1.slim.min.js></script>
-    <script type="text/javascript" src=js/FlowType.JS/flowtype.js></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 </head>
 <body>
 <div class="about">
-    <div class="nav-container">
-        <div class="me" align="center">
-            <!--<h1>-->
-                <a href="index.html">Michelle Deng</a>
-            <!--</h1>-->
-        </div>
-        <div class="nav-links" align="center">
-            <a href="about.html" class="active">About</a> |
-            <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a> |
-            <a href="https://mddengo.github.io/portfolio">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </div>
+    <div class="container-fluid navbar-container m-sm-5">
+        <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+            <a class="nav-brand ml-2" href="about.html">about&nbsp;|&nbsp;michelle </a>
+
+            <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+                <ul class="nav-links nav-link navbar-nav ml-auto my-auto">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://mddengo.github.io/portfolio">Portfolio</a>
+                    </li>
+                    <!--<li>-->
+                    <!--<a href="art.html">Artwork</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <hr class="hidden-md-up" />
+            </div>
+        </nav>
     </div>
-    <div class="content-container">
-        <div class="about-text">
-            <p>
-                Hello! My name is Michelle Deng and I am currently a student at Carnegie Mellon University, obtaining my
-                Master's in Educational Technology and Applied Learning Sciences. I am interested in using machine learning techniques
-                to build technologies that will learn and adapt to people's learning styles in order to help teach them effectively
-                and efficiently. In my free time, I love to practice yoga, read, exercise, listen to music, shoot photography, and draw.
-                I also love to travel and explore! <br>
-                <br>
-                The picture of me was taken during my post-graduation trip to Thailand;
-                we visited the Elephant Nature Park in Chiang Mai and got to pet, feed, and observe the elephants there.
-                (They also served yummy food buffet-style!)
-            </p>
-            <p>
-                <br>
-                If you would like to say hi, feel free to <a href="mailto:mdeng@cmu.edu">reach out</a>!<br>
-                <!--TODO: Other links-->
-            </p>
+    <div class="content-container container-fluid">
+        <div class="container col-lg-8">
+            <div class="row">
+                <div class="col-md-5 text-md-right text-right">
+                    <div class="about-pic"></div>
+                </div>
+                <div class="col-md-7 text-md-left text-left">
+                    <div class="about-text">
+                        <p>
+                            Hello! My name is Michelle Deng and I am currently a student at Carnegie Mellon University, obtaining my
+                            Master's in Educational Technology and Applied Learning Sciences. I am interested in using machine learning techniques
+                            to build technologies that will learn and adapt to people's learning styles in order to help teach them effectively
+                            and efficiently. In my free time, I love to practice yoga, read, exercise, listen to music, shoot photography, and draw.
+                            I also love to travel and explore! <br>
+                            <br>
+                            The picture of me was taken during my post-graduation trip to Thailand;
+                            we visited the Elephant Nature Park in Chiang Mai and got to pet, feed, and observe the elephants there.
+                            (They also served yummy food buffet-style!)
+                        </p>
+                        <p>
+                            <br>
+                            If you would like to say hi, feel free to <a href="mailto:mdeng@cmu.edu">reach out</a>!<br>
+                            <!--TODO: Other links-->
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about-pic"></div>
     </div>
 </div>
 
-<script type="text/javascript" src="js/resizeAbout.js"></script>
 <script type="text/javascript" src="js/redirect.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>

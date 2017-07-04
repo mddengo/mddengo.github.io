@@ -61,27 +61,35 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
 }
 /* line 39, ../sass/photography.scss */
+.photography .navbar-toggler {
+  border: 0;
+}
+/* line 43, ../sass/photography.scss */
+.photography .navbar-toggler-right {
+  right: 0;
+}
+/* line 47, ../sass/photography.scss */
 .photography #wrapper {
   padding-top: 5%;
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 44, ../sass/photography.scss */
+/* line 52, ../sass/photography.scss */
 .photography #wrapper #gallery {
   overflow: hidden;
 }
-/* line 46, ../sass/photography.scss */
+/* line 54, ../sass/photography.scss */
 .photography #wrapper #gallery a {
   display: block;
   float: left;
 }
-/* line 49, ../sass/photography.scss */
+/* line 57, ../sass/photography.scss */
 .photography #wrapper #gallery a img {
   display: block;
   border: 0;
 }
-/* line 53, ../sass/photography.scss */
+/* line 61, ../sass/photography.scss */
 .photography #wrapper #gallery a img:hover {
   opacity: 0.5;
 }

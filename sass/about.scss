@@ -6,12 +6,23 @@
   margin: 0;
   padding: 0;
 
-  .nav-container {
-    position: relative;
-    margin-top: 1em;
+  .nav-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    color: $black-text;
+    text-decoration: none;
+  }
 
-    .active {
-      text-decoration: underline;
+  .nav-brand:hover {
+    color: $link-hover;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    li {
+      padding: 10px;
     }
 
     a {
@@ -22,38 +33,26 @@
       color: $link-hover;
       text-decoration: none;
     }
-    .me {
-      color: $black-text;
-      font-size: 1.3em;
-      letter-spacing: 0.1em;
-      //h1 {
-      //  font-size: 3em;
-      //  letter-spacing: 0.1em;
-      //}
-    }
+  }
 
-    .nav-links {
-      position: relative;
-      font-size: .5em;
-      letter-spacing: 0.2em;
-    }
+  .navbar-toggler {
+    border: 0;
+  }
+
+  .navbar-toggler-right {
+    right: 0;
+  }
+
+  .col-centered{
+    float: none;
+    margin: 0 auto;
   }
 
   .content-container {
     .about-text {
-      float: left;
-      width: 30%;
-      text-align: justify;
-      text-justify: inter-word;
-      padding: 6% 0 0 20%;
-      font-size: .4em;
-
-      //p {
-      //  font-size: 1em;
-      //}
-
       a {
         color: $black-text;
+        text-decoration: underline;
       }
 
       a:hover {
@@ -63,14 +62,12 @@
     }
 
     .about-pic {
-      padding: 6% 20% 0 0;
-      width: 25%;
+      width: 90%;
       content: url($img-link-base + 'me.jpg');
-      display: block;
-      float: right;
     }
     .caption {
       font-size: .5em;
     }
+
   }
 }

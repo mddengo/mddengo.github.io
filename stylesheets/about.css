@@ -30,63 +30,65 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 /* line 9, ../sass/about.scss */
-.about .nav-container {
-  position: relative;
-  margin-top: 1em;
-}
-/* line 13, ../sass/about.scss */
-.about .nav-container .active {
-  text-decoration: underline;
-}
-/* line 17, ../sass/about.scss */
-.about .nav-container a {
+.about .nav-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
   color: #222b28;
   text-decoration: none;
 }
-/* line 21, ../sass/about.scss */
-.about .nav-container a:hover {
+/* line 16, ../sass/about.scss */
+.about .nav-brand:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 25, ../sass/about.scss */
-.about .nav-container .me {
+/* line 21, ../sass/about.scss */
+.about .nav-links {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+/* line 24, ../sass/about.scss */
+.about .nav-links li {
+  padding: 10px;
+}
+/* line 28, ../sass/about.scss */
+.about .nav-links a {
   color: #222b28;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
+  text-decoration: none;
 }
-/* line 35, ../sass/about.scss */
-.about .nav-container .nav-links {
-  position: relative;
-  font-size: .5em;
-  letter-spacing: 0.2em;
+/* line 32, ../sass/about.scss */
+.about .nav-links a:hover {
+  color: #647eed;
+  text-decoration: none;
 }
-/* line 43, ../sass/about.scss */
-.about .content-container .about-text {
-  float: left;
-  width: 30%;
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 6% 0 0 20%;
-  font-size: .4em;
+/* line 38, ../sass/about.scss */
+.about .navbar-toggler {
+  border: 0;
 }
-/* line 55, ../sass/about.scss */
+/* line 42, ../sass/about.scss */
+.about .navbar-toggler-right {
+  right: 0;
+}
+/* line 46, ../sass/about.scss */
+.about .col-centered {
+  float: none;
+  margin: 0 auto;
+}
+/* line 53, ../sass/about.scss */
 .about .content-container .about-text a {
   color: #222b28;
+  text-decoration: underline;
 }
-/* line 59, ../sass/about.scss */
+/* line 58, ../sass/about.scss */
 .about .content-container .about-text a:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 65, ../sass/about.scss */
+/* line 64, ../sass/about.scss */
 .about .content-container .about-pic {
-  padding: 6% 20% 0 0;
-  width: 25%;
+  width: 90%;
   content: url("../src/images/me.jpg");
-  display: block;
-  float: right;
 }
-/* line 72, ../sass/about.scss */
+/* line 68, ../sass/about.scss */
 .about .content-container .caption {
   font-size: .5em;
 }
