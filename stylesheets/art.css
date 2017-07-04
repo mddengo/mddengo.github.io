@@ -61,33 +61,41 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
 }
 /* line 39, ../sass/art.scss */
+.art-container .navbar-toggler {
+  border: 0;
+}
+/* line 43, ../sass/art.scss */
+.art-container .navbar-toggler-right {
+  right: 0;
+}
+/* line 47, ../sass/art.scss */
 .art-container .welcome-text {
   text-align: left;
   max-width: 80%;
   margin: 0 auto;
   display: block;
 }
-/* line 46, ../sass/art.scss */
+/* line 54, ../sass/art.scss */
 .art-container #wrapper {
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 50, ../sass/art.scss */
+/* line 58, ../sass/art.scss */
 .art-container #wrapper #gallery {
   overflow: hidden;
 }
-/* line 52, ../sass/art.scss */
+/* line 60, ../sass/art.scss */
 .art-container #wrapper #gallery a {
   display: block;
   float: left;
 }
-/* line 55, ../sass/art.scss */
+/* line 63, ../sass/art.scss */
 .art-container #wrapper #gallery a img {
   display: block;
   border: 0;
 }
-/* line 59, ../sass/art.scss */
+/* line 67, ../sass/art.scss */
 .art-container #wrapper #gallery a img:hover {
   opacity: 0.5;
 }
