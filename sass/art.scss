@@ -7,30 +7,6 @@
   margin: 0;
   padding: 0;
 
-  .nav-container {
-    display: block;
-    float: right;
-
-    a {
-      color: $black-text;
-      text-decoration: none;
-    }
-    a:hover {
-      color: $link-hover;
-      text-decoration: none;
-    }
-    .me {
-      color: $black-text;
-      font-size: 1.3em;
-      letter-spacing: 0.1em;
-      //h1 {
-      //  font-size: 3em;
-      //  letter-spacing: 0.1em;
-      //}
-    }
-
-  }
-
   .nav-brand {
     font-size: 1.5rem;
     letter-spacing: 0.5px;
@@ -60,17 +36,11 @@
     }
   }
 
-
   .welcome-text {
     text-align: left;
     max-width: 80%;
     margin: 0 auto;
     display: block;
-
-    p {
-      padding-top: 3%;
-      //padding-bottom: 2%;
-    }
   }
 
   #wrapper {

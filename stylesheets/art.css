@@ -30,89 +30,64 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 /* line 10, ../sass/art.scss */
-.art-container .nav-container {
-  display: block;
-  float: right;
-}
-/* line 14, ../sass/art.scss */
-.art-container .nav-container a {
-  color: #222b28;
-  text-decoration: none;
-}
-/* line 18, ../sass/art.scss */
-.art-container .nav-container a:hover {
-  color: #647eed;
-  text-decoration: none;
-}
-/* line 22, ../sass/art.scss */
-.art-container .nav-container .me {
-  color: #222b28;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
-}
-/* line 34, ../sass/art.scss */
 .art-container .nav-brand {
   font-size: 1.5rem;
   letter-spacing: 0.5px;
   color: #222b28;
   text-decoration: none;
 }
-/* line 41, ../sass/art.scss */
+/* line 17, ../sass/art.scss */
 .art-container .nav-brand:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 46, ../sass/art.scss */
+/* line 22, ../sass/art.scss */
 .art-container .nav-links {
   font-size: 1rem;
   letter-spacing: 1.5px;
 }
-/* line 49, ../sass/art.scss */
+/* line 25, ../sass/art.scss */
 .art-container .nav-links li {
   padding: 10px;
 }
-/* line 53, ../sass/art.scss */
+/* line 29, ../sass/art.scss */
 .art-container .nav-links a {
   color: #222b28;
   text-decoration: none;
 }
-/* line 57, ../sass/art.scss */
+/* line 33, ../sass/art.scss */
 .art-container .nav-links a:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 64, ../sass/art.scss */
+/* line 39, ../sass/art.scss */
 .art-container .welcome-text {
   text-align: left;
   max-width: 80%;
   margin: 0 auto;
   display: block;
 }
-/* line 70, ../sass/art.scss */
-.art-container .welcome-text p {
-  padding-top: 3%;
-}
-/* line 76, ../sass/art.scss */
+/* line 46, ../sass/art.scss */
 .art-container #wrapper {
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 80, ../sass/art.scss */
+/* line 50, ../sass/art.scss */
 .art-container #wrapper #gallery {
   overflow: hidden;
 }
-/* line 82, ../sass/art.scss */
+/* line 52, ../sass/art.scss */
 .art-container #wrapper #gallery a {
   display: block;
   float: left;
 }
-/* line 85, ../sass/art.scss */
+/* line 55, ../sass/art.scss */
 .art-container #wrapper #gallery a img {
   display: block;
   border: 0;
 }
-/* line 89, ../sass/art.scss */
+/* line 59, ../sass/art.scss */
 .art-container #wrapper #gallery a img:hover {
   opacity: 0.5;
 }
