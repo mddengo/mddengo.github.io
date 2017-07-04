@@ -30,55 +30,46 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 /* line 9, ../sass/contact.scss */
-.contact .nav-container {
-  position: relative;
-  margin-top: 1em;
-}
-/* line 13, ../sass/contact.scss */
-.contact .nav-container .active {
-  text-decoration: underline;
-}
-/* line 17, ../sass/contact.scss */
-.contact .nav-container a {
+.contact .nav-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
   color: #222b28;
   text-decoration: none;
 }
-/* line 21, ../sass/contact.scss */
-.contact .nav-container a:hover {
+/* line 16, ../sass/contact.scss */
+.contact .nav-brand:hover {
   color: #647eed;
   text-decoration: none;
 }
-/* line 25, ../sass/contact.scss */
-.contact .nav-container .me {
+/* line 21, ../sass/contact.scss */
+.contact .nav-links {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+/* line 24, ../sass/contact.scss */
+.contact .nav-links li {
+  padding: 10px;
+}
+/* line 28, ../sass/contact.scss */
+.contact .nav-links a {
   color: #222b28;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
+  text-decoration: none;
 }
-/* line 35, ../sass/contact.scss */
-.contact .nav-container .nav-links {
-  position: relative;
-  font-size: .5em;
-  letter-spacing: 0.2em;
+/* line 32, ../sass/contact.scss */
+.contact .nav-links a:hover {
+  color: #647eed;
+  text-decoration: none;
 }
-/* line 42, ../sass/contact.scss */
-.contact .contact-text {
-  padding-top: 20px;
-  padding-bottom: 0;
-}
-/* line 47, ../sass/contact.scss */
-.contact .icons {
-  padding-top: 10%;
-}
-/* line 49, ../sass/contact.scss */
+/* line 39, ../sass/contact.scss */
 .contact .icons .fa {
-  padding: 50px;
+  padding: 30px;
   margin: 20px;
   text-align: center;
   text-decoration: none;
   background-color: #fdfff9;
   color: #222b28;
 }
-/* line 58, ../sass/contact.scss */
+/* line 48, ../sass/contact.scss */
 .contact .icons .fa:hover {
   background-color: #647eed;
   color: #fdfff9;

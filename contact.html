@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <title>contact | michelle</title>
 
@@ -14,32 +15,49 @@
 </head>
 <body>
 <div class="contact">
-    <div class="nav-container">
-        <div class="me" align="center">
-            <!--<h1>-->
-                <a href="index.html">Michelle Deng</a>
-            <!--</h1>-->
-        </div>
-        <div class="nav-links" align="center">
-            <a href="about.html">About</a> |
-            <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a> |
-            <a href="https://mddengo.github.io/portfolio">Portfolio</a> |
-            <a href="contact.html" class="active">Contact</a>
-        </div>
+    <div class="container-fluid navbar-container m-sm-5">
+        <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+            <a class="nav-brand ml-2" href="about.html">contact&nbsp;|&nbsp;michelle </a>
+
+            <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+                <ul class="nav-links navbar-nav ml-auto my-auto">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://mddengo.github.io/portfolio">Portfolio</a>
+                    </li>
+                    <!--<li>-->
+                        <!--<a href="art.html">Artwork</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <hr class="hidden-md-up" />
+            </div>
+        </nav>
     </div>
 
     <!--Icons-->
     <!--LinkedIn, Github, Email-->
     <div class="icons" align="center">
-        <a href="https://www.linkedin.com/in/michelle-deng-52538b96/" onclick="window.openWin(href);return false;" class="fa fa-linkedin fa-lg" aria-hidden="true"></a>
-        <a href=" https://github.com/mddengo" onclick="window.openWin(href);return false;" class="fa fa-github fa-lg" aria-hidden="true"></a>
-        <a href="mailto:mdeng@cmu.edu" class="fa fa-envelope-o fa-lg" aria-hidden="true"></a>
+        <a href="https://www.linkedin.com/in/michelle-deng-52538b96/" onclick="window.openWin(href);return false;" class="fa fa-linkedin fa-3x" aria-hidden="true"></a>
+        <a href=" https://github.com/mddengo" onclick="window.openWin(href);return false;" class="fa fa-github fa-3x" aria-hidden="true"></a>
+        <a href="mailto:mdeng@cmu.edu" class="fa fa-envelope-o fa-3x" aria-hidden="true"></a>
     </div>
 
 
 </div>
 
-<script type="text/javascript" src="js/resizeContact.js"></script>
+<!--<script type="text/javascript" src="js/resizeContact.js"></script>-->
 <script type="text/javascript" src="js/redirect.js"></script>
 
 </body>

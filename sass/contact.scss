@@ -6,12 +6,23 @@
   margin: 0;
   padding: 0;
 
-  .nav-container {
-    position: relative;
-    margin-top: 1em;
+  .nav-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    color: $black-text;
+    text-decoration: none;
+  }
 
-    .active {
-      text-decoration: underline;
+  .nav-brand:hover {
+    color: $link-hover;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    li {
+      padding: 10px;
     }
 
     a {
@@ -22,32 +33,11 @@
       color: $link-hover;
       text-decoration: none;
     }
-    .me {
-      color: $black-text;
-      font-size: 1.3em;
-      letter-spacing: 0.1em;
-      //h1 {
-      //  font-size: 3em;
-      //  letter-spacing: 0.1em;
-      //}
-    }
-
-    .nav-links {
-      position: relative;
-      font-size: .5em;
-      letter-spacing: 0.2em;
-    }
-  }
-
-  .contact-text {
-    padding-top: 20px;
-    padding-bottom: 0;
   }
 
   .icons {
-    padding-top: 10%;
     .fa {
-      padding: 50px;
+      padding: 30px;
       margin: 20px;
       text-align: center;
       text-decoration: none;
