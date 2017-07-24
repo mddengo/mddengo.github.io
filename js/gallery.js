@@ -5,8 +5,6 @@
 $(window).on('load', function() {
 
     $('#gallery').poptrox({
-        overlayColor: '#2c2c2c',
-        overlayOpacity: 0.85,
         // popupCloserText: '',
         // popupLoaderText: '',
         usePopupCaption: true,
