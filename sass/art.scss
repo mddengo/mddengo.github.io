@@ -56,7 +56,7 @@
     margin: 0 auto;
     text-align: center;
     #gallery {
-      overflow:hidden;
+      overflow: hidden;
       a {
         display: block;
         float: left;
@@ -70,5 +70,16 @@
       }
 
     }
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #baac9d;
+    text-align: center;
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
   }
 }

@@ -37,22 +37,16 @@ $footer-height: 60px;
     }
   }
 
-  body {
-    margin-bottom: $footer-height;
-  }
-
   .footer {
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height: $footer-height;
-    background-color: pink;
-
-    .container {
-      width: auto;
-      max-width: 680px;
-      padding: 0 15px;
-    }
+    color: #baac9d;
+    text-align: center;
+    font-size: 0.5em;
+    letter-spacing: 0.1em;
   }
+
 }
 

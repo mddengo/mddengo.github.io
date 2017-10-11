@@ -82,3 +82,14 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #647eed;
   color: #fdfff9;
 }
+/* line 62, ../sass/contact.scss */
+.contact .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #baac9d;
+  text-align: center;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+}
