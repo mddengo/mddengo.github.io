@@ -8,3 +8,5 @@ src/.DS_Store
 .sass-cache/*
 /src/.sass-cache
 config.rb
+
+*.icloud
