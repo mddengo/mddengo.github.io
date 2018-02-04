@@ -1,0 +1,51 @@
+@import 'momega-styles.scss';
+
+.momega-container {
+  header {
+    padding: 154px 0 100px;
+  }
+
+  @media (min-width: 900px) {
+    header {
+      padding: 156px 0 100px;
+    }
+  }
+
+  section {
+    padding: 10px 55px 5px 55px;
+  }
+
+  nav {
+    background-color: $yellow-color;
+  }
+  .nav-links {
+    li {
+      padding: 10px;
+    }
+    a {
+      color: $dark-text;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $blue-color;
+      text-decoration: none;
+    }
+  }
+
+  .jumbotron {
+    background-color: transparent;
+  }
+
+  .footer-container {
+    footer {
+      .container {
+        padding: 100px;
+        background-color: $blue-color;
+        p {
+          color: $red-color !important;
+        }
+      }
+    }
+  }
+}
+
