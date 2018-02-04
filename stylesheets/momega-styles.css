@@ -1,0 +1,9 @@
+/* line 7, ../sass/momega-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+}
+
+/* line 11, ../sass/momega-styles.scss */
+* {
+  font-family: 'Titillium Web', sans-serif;
+}

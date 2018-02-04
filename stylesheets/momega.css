@@ -1,0 +1,55 @@
+/* line 7, ../sass/momega-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+}
+
+/* line 11, ../sass/momega-styles.scss */
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 4, ../sass/momega.scss */
+.momega-container header {
+  padding: 154px 0 100px;
+}
+@media (min-width: 900px) {
+  /* line 9, ../sass/momega.scss */
+  .momega-container header {
+    padding: 156px 0 100px;
+  }
+}
+/* line 14, ../sass/momega.scss */
+.momega-container section {
+  padding: 10px 55px 5px 55px;
+}
+/* line 18, ../sass/momega.scss */
+.momega-container nav {
+  background-color: #fff100;
+}
+/* line 22, ../sass/momega.scss */
+.momega-container .nav-links li {
+  padding: 10px;
+}
+/* line 25, ../sass/momega.scss */
+.momega-container .nav-links a {
+  color: #344d6a;
+  text-decoration: none;
+}
+/* line 29, ../sass/momega.scss */
+.momega-container .nav-links a:hover {
+  color: #496c94;
+  text-decoration: none;
+}
+/* line 35, ../sass/momega.scss */
+.momega-container .jumbotron {
+  background-color: transparent;
+}
+/* line 41, ../sass/momega.scss */
+.momega-container .footer-container footer .container {
+  padding: 100px;
+  background-color: #496c94;
+}
+/* line 44, ../sass/momega.scss */
+.momega-container .footer-container footer .container p {
+  color: #e94f4e !important;
+}
