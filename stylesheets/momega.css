@@ -44,12 +44,29 @@ h1, h2, h3, h4, h5, h6 {
 .momega-container .jumbotron {
   background-color: transparent;
 }
-/* line 41, ../sass/momega.scss */
+/* line 39, ../sass/momega.scss */
+.momega-container .hover-container {
+  position: relative;
+  display: inline-block;
+}
+/* line 43, ../sass/momega.scss */
+.momega-container .hover-container .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+/* line 51, ../sass/momega.scss */
+.momega-container .hover-container:hover .img-top {
+  display: inline;
+}
+/* line 57, ../sass/momega.scss */
 .momega-container .footer-container footer .container {
   padding: 100px;
   background-color: #496c94;
 }
-/* line 44, ../sass/momega.scss */
+/* line 60, ../sass/momega.scss */
 .momega-container .footer-container footer .container p {
   color: #e94f4e !important;
 }

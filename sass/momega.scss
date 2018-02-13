@@ -36,6 +36,22 @@
     background-color: transparent;
   }
 
+  .hover-container {
+    position: relative;
+    display: inline-block;
+
+    .img-top {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;
+    }
+  }
+  .hover-container:hover .img-top {
+    display: inline;
+  }
+
   .footer-container {
     footer {
       .container {
