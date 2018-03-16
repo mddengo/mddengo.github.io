@@ -157,7 +157,7 @@ function submitAns() {
         alert('You got it!');
         closeQPane();
     } else{
-        alert('Hint: Think about the tapes dispensers you have interacted with. Maybe those on the desks, and those bigger ones that tape a paper box.');
+        alert('Hint: Think about the tape dispensers you have interacted with. Maybe those on desks, and those bigger ones that tape a paper box.');
     }
 }
 
