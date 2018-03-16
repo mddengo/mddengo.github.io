@@ -1,0 +1,40 @@
+.player {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#quiz {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: none;
+}
+
+
+#quizbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 725px;
+    opacity: 0.9;
+    background: url('../quiz.jpeg');
+    z-index: 1;
+}
+
+.quizDiv {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    padding: 10px;
+    height: 500px;
+    width: 725px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 16pt;
+    z-index: 2;
+}
+
+#quizText {
+    width: 725px;
+}
