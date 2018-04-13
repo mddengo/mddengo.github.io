@@ -11,11 +11,16 @@
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -32,16 +37,22 @@
             <a href="/">Michelle Deng</a>
         </h1>
         <div class="nav-links" align="center">
-            <p>
-                <a href="about.html">About</a> |
-                <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a> |
-                <a href="https://mddengo.github.io/portfolio">Portfolio</a> |
+            <div class="dropdown">
+            <a href="about.html">About</a> |
+            <a href="src/files/resume.pdf" onclick="window.openWin(href);return false;">Resume</a> |
+
+                <a href="" data-toggle="dropdown" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">Portfolio</a> |
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="https://mddengo.github.io/portfolio">Projects</a>
+                    <a class="dropdown-item" href="art.html">Art</a>
+                    <a class="dropdown-item" href="photography.html">Photography</a>
+                </div>
+            </div>
                 <a href="contact.html">Contact</a>
-            </p>
         </div>
     </div>
     <div class="footer" align="center">
-        <p>Copyright &copy; 2017 Michelle Deng</p>
+        <p>Copyright &copy; 2018 Michelle Deng</p>
     </div>
 </div>
 
@@ -49,5 +60,7 @@
 <script type="text/javascript" src="js/resize.js"></script>
 <script type="text/javascript" src="js/redirect.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

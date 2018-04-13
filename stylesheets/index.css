@@ -52,15 +52,38 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /* line 30, ../sass/index.scss */
 .splash .container .nav-links {
+  font-size: 1rem;
+  letter-spacing: .2rem;
   margin-top: 20px;
   position: relative;
 }
-/* line 33, ../sass/index.scss */
-.splash .container .nav-links p {
-  font-size: .5em;
-  letter-spacing: 0.2em;
+/* line 35, ../sass/index.scss */
+.splash .container .nav-links a {
+  color: #222b28;
+  text-decoration: none;
 }
-/* line 40, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
+.splash .container .nav-links a:hover {
+  color: #647eed;
+  text-decoration: none;
+}
+/* line 44, ../sass/index.scss */
+.splash .container .nav-links .dropdown {
+  display: inline-block;
+}
+/* line 47, ../sass/index.scss */
+.splash .container .nav-links .dropdown-menu {
+  letter-spacing: 0;
+}
+/* line 50, ../sass/index.scss */
+.splash .container .nav-links .dropdown:hover > .dropdown-menu {
+  position: absolute;
+  transform: translate3d(168px, 22px, 0px);
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+/* line 67, ../sass/index.scss */
 .splash .footer {
   position: fixed;
   left: 0;
