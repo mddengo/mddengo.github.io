@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns:v-if="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/quasar-framework@^0.16.0/dist/umd/quasar.ios.min.css" rel="stylesheet" type="text/css">
+
+    <script src="http://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <q-layout>
+        <q-layout-header>
+            <q-toolbar color="brand">
+                <span><img src="assets/logo_w_1.png" width="15%"></span>
+                <q-toolbar-title>
+                </q-toolbar-title>
+                <span><q-btn flat round dense icon="search" /></span>
+                <span><q-btn flat round dense icon="notifications" /></span>
+                <span><q-btn flat round dense icon="person" /></span>
+                <!--<div class="logout">-->
+                    <!--<router-link to="/">Logout</router-link>-->
+                <!--</div>-->
+            </q-toolbar>
+        </q-layout-header>
+
+        <q-page-container style="padding-top:3px;">
+            <q-page>
+                <router-view></router-view>
+            </q-page>
+        </q-page-container>
+        <q-layout-footer style="font-family: 'Dosis', sans-serif;z-index:1;">
+            <q-toolbar color="brand">
+                <q-toolbar-title>
+                    &#169; 2018 MoMega
+                </q-toolbar-title>
+            </q-toolbar>
+        </q-layout-footer>
+    </q-layout>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/quasar-framework@^0.16.0/dist/umd/quasar.mat.umd.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/quasar-framework@^0.16.0/dist/umd/quasar.ios.umd.min.js"></script>-->
+<script src="index.js"></script>
+</body>
+</html>

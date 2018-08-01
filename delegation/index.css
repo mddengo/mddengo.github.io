@@ -1,0 +1,260 @@
+.text-brand {
+    color: #496c94;
+}
+.bg-brand {
+    background: #496c94;
+}
+.text-lightbrand {
+    color: #f0f3f6;
+}
+.bg-lightbrand {
+    background: #f0f3f6;
+}
+.text-secbrand{
+    color: #605f5e;
+}
+.bg-secbrand {
+    background: #605f5e;
+}
+.text-posbrand {
+    color: #64bf56;
+}
+.bg-posbrand {
+    background: #64bf56;
+}
+.text-negbrand {
+    color: #e03c3c;
+}
+.bg-negbrand {
+    background: #e03c3c;
+}
+.text-yellowbrand {
+    color: #e9d985;
+}
+.bg-yellowbrand {
+    color: #e9d985;
+}
+.text-greybrand {
+    color: #b9b9b9;
+}
+.bg-greybrand {
+    color: #b9b9b9;
+}
+
+html, body {
+    min-height:100vh;
+}
+
+.save-buttons {
+    z-index: 99;
+    padding-right: 8em;
+    padding-bottom: 3em;
+}
+
+.login {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-left:-50px;
+    margin-top:-50px;
+    font-family: 'Lato', sans-serif;
+}
+.instruction {
+    line-height: 1.5em;
+}
+
+.landing {
+    height: 900px;
+    background: url("assets/homepageBG.png");/* no-repeat center center;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+    opacity: 0.3;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+
+.welcome {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #496c94;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 760px;
+    text-align: center;
+    left: 25%;
+    top: 25%;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome-buttons {
+    position: absolute;
+    left: 35%;
+    padding-top: 15px;
+}
+
+.benefits {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #496c94;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%
+}
+
+.benefits p {
+    font-family: 'Lato', sans-serif;
+}
+
+.dashboard-container {
+    background-color: #f0f3f6;
+    padding-bottom:5%;
+}
+.dashboard {
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 65em;
+    font-family: 'Dosis', sans-serif;
+    color: #496c94;
+}
+
+.modules {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    font-family: 'Dosis', sans-serif;
+}
+
+.modules .top-bar {
+    background-color: #605f5e;
+    width:100%;
+    height: 375px;
+    /*line-height:60px;*/
+    color: white;
+    position:relative;
+}
+
+.modules .top-bar .text {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 25%;
+}
+
+.modules p {
+    font-family: 'Lato', sans-serif;
+}
+
+.modules .main-section {
+    color: #496c94;
+    padding: 5em 10em;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome-cmp {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    font-family: 'Dosis', sans-serif;
+}
+
+.welcome-cmp .main {
+    padding-top: 5em;
+    padding-right: 10em;
+    padding-left: 10em;
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome-cmp .main p {
+    font-size: 20px;
+}
+.welcome-cmp .main ul {
+    font-size: 18px;
+}
+
+.assessment {
+    background-color: #f0f3f6;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    padding: 8em 5em 5em;
+}
+
+.selectors {
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+}
+
+.skip {
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+.completion {
+    padding-top: 5%;
+}
+
+.instruction {
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+.dglog {
+    background-color: #f0f3f6;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 5em;
+}
+
+.dglog h1,h2,h3,h4,h5,h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.casestudy {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    padding: 5em 3em 5em 3em;
+    font-family: 'Lato', sans-serif;
+}
+.feedback {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    padding: 3em 5em;
+}
+
+.peer-review {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    padding-top: 8em;
+    padding-bottom:5em;
+    color: #496c94;
+}
+
+.dgtask {
+    background-color: #f0f3f6;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    padding-top: 8em;
+    padding-bottom: 5em;
+    color: #496c94;
+}
