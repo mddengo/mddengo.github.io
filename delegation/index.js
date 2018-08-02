@@ -183,8 +183,8 @@ const Home = {
         </div>
         
         <div v-else class="student">
-            <div class="landing"></div>
-                <div style="margin: 0 auto;">
+            <div class="landing">
+                <div class="vertical-middle landing-text">
                 <div class="welcome"><h3>Welcome</h3></div>
                 <div class="welcome-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -202,7 +202,7 @@ const Home = {
                     label="Learn More"></q-btn>
                 </div>
             </div>
-            </div>
+            </div></div>
         <div class="benefits">
             <h3>Features</h3>
             <div class="row gutter-md">
@@ -1692,7 +1692,7 @@ const DgLog = {
             />
             </div>
             <div class="float-right cursor-pointer" style="color:#496c94;padding-right:5em">
-                <p @click="reminder = true"><q-icon name="calendar_today" /> Calendar</p>
+                <p @click="calendarToggle"><q-icon name="calendar_today" /> Calendar</p>
             </div>
             <br><br><br>
             <div class="row" v-if="planselect === 'plan'">
@@ -2131,6 +2131,9 @@ const DgLog = {
             this.plan = false;
             this.reflect = true;
             this.planselect = 'reflect';
+        },
+        calendarToggle() {
+            this.afterPlan = true;
         }
     }
 };
@@ -2592,6 +2595,11 @@ const PeerReview = {
                                 label="Go Back to My Dashboard" />
                     </div>
                 </q-modal>
+                <q-modal v-model="feedback">
+                    <div class="cursor-pointer" style="width:868px;text-align:center;">
+                        <img src="assets/How%20to%20give%20good%20feedback@2x.jpg" width="60%" @click="feedback = false">
+                    </div>
+                </q-modal>
                 </div>
 </div>
                     <div class="fixed-bottom-right save-buttons">
@@ -2654,6 +2662,7 @@ const PeerReview = {
             '\n' +
             '3. Creating report - do myself',
             submit: false,
+            feedback: true,
         }
     },
     methods: {
