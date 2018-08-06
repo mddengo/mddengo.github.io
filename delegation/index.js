@@ -1011,7 +1011,7 @@ const Assessment = {
                                 <p style="font-size:30px;font-family:'Dosis',sans-serif;">Defining Delegation</p>
                                 <p style="font-size:17px;">Describe the task you would like to delegate ("{{dgTask}}") with respect to responsibility, authority, and accountability.</p>
                                     <div style="max-width:379px; font-size:17.5px;">
-                                        <q-input dark v-model="dgdefinput" placeholder="Input Text Here" />
+                                        <q-input dark v-model="dgdefinput" type="textarea" placeholder="Input Text Here"/>
                                     </div>
                             </q-card-main>
                         </q-card>
@@ -2167,7 +2167,11 @@ const CaseStudy = {
                             <p>In this section, please describe at least three criteria
                             that make a task important for you to do personally (50-100 words).</p>
                                 <div style="max-width:544px;font-size:17px">
-                                    <q-input placeholder="Input Text Here" />
+                                    <q-input placeholder="One" />
+                                    <br>
+                                    <q-input placeholder="Two" />
+                                    <br>
+                                    <q-input placeholder="Three" />
                                 </div>
                         </q-card-main>
                     </q-card>
@@ -2206,7 +2210,7 @@ const CaseStudy = {
                         <q-card-main style="font-size:20px;padding-top:3em;padding-left:3em;padding-right:3em;">
                             <p>Select a delegating situation to analyze, and describe why you selected this situation.</p>
                                 <div style="max-width:544px;font-size:17px;">
-                                    <q-input placeholder="Input Text Here" />
+                                    <q-input type="textarea" :max-height="250" placeholder="Input Text Here" />
                                 </div>
                            <br>
                             <p style="padding-top:3em;">If you chose to describe your own situation,
@@ -2237,7 +2241,7 @@ const CaseStudy = {
                             <p>Identify all tasks in the selected situation and classify them according to importance and urgency.
                             Explain why you classified each task accordingly (75-150 words).</p>
                                 <div style="max-width:544px;font-size:17px">
-                                    <q-input placeholder="Input Text Here" />
+                                    <q-input type="textarea" :max-height="100" placeholder="Input Text Here" />
                                 </div>
                         </q-card-main>
                     </q-card>
@@ -2259,7 +2263,7 @@ const CaseStudy = {
                             Specify when you will delegate or do the task. Provide a clear rationale for each decision.
                             (You can refer to your previous classifications.) </p>
                                 <div style="max-width:544px;font-size:17px">
-                                    <q-input placeholder="Input Text Here" />
+                                    <q-input type="textarea" :max-height="100" placeholder="Input Text Here" />
                                 </div>
                         </q-card-main>
                     </q-card>
@@ -2277,6 +2281,7 @@ const CaseStudy = {
                                 label="Go Back to My Dashboard" />
                     </div>
                 </q-modal>
+                
                     <div class="fixed-bottom-right save-buttons">
                 <q-btn
                     @click="saved"
@@ -2287,7 +2292,7 @@ const CaseStudy = {
                     @click="submitToggle"
                     style="background: #e9d985;
                     color: #605f5e;"
-                    label="Save & Continue"></q-btn>
+                    label="Save & Continue" />
                     </div>
 </div>`,
     data: function () {
