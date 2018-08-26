@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 35, ../sass/momega.scss */
 .momega-container .landing {
   height: 550px;
+  max-height: 900px;
   background: url("../momega/photos/homepageBG.jpg");
   /* no-repeat center center;*/
   -webkit-background-size: cover;
@@ -53,12 +54,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
 }
-/* line 47, ../sass/momega.scss */
+/* line 48, ../sass/momega.scss */
 .momega-container .hover-container {
   position: relative;
   display: inline-block;
 }
-/* line 51, ../sass/momega.scss */
+/* line 52, ../sass/momega.scss */
 .momega-container .hover-container .img-top {
   display: none;
   position: absolute;
@@ -66,16 +67,16 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 99;
 }
-/* line 59, ../sass/momega.scss */
+/* line 60, ../sass/momega.scss */
 .momega-container .hover-container:hover .img-top {
   display: inline;
 }
-/* line 65, ../sass/momega.scss */
+/* line 66, ../sass/momega.scss */
 .momega-container .footer-container footer .container {
   padding: 100px;
   background-color: #496c94;
 }
-/* line 68, ../sass/momega.scss */
+/* line 69, ../sass/momega.scss */
 .momega-container .footer-container footer .container p {
   color: #e94f4e !important;
 }
