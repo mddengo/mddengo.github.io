@@ -186,9 +186,8 @@ const Home = {
             <div class="landing">
                 <div class="vertical-middle landing-text">
                 <div class="welcome"><h3>Welcome</h3></div>
-                <div class="welcome-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <div class="welcome-text"><p> This system will introduce you to the basics of interpersonal skills as a new leader in your organization.
+		These courses will equip you enough knowledge and provide you on-the-job practice at the same time. Enjoy and make the most of it.</p>
                 <div class="welcome-buttons">
                 <q-btn
                     style="background: #496c94;
@@ -209,23 +208,17 @@ const Home = {
                 <div class="col">
                     <img src="assets/benefitL.svg" width="35%">
                     <h5>Pre-Assessment</h5>
-                    <p>Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero
-                    labore et dolore.</p>
+                    <p>Learner choice & appropriate challenge for efficient learning</p>
                 </div>
                 <div class="col">
                     <img src="assets/benefitM.svg" width="35%">
                     <h5>Peer Review</h5>
-                    <p>Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero
-                    labore et dolore.</p>
+                    <p>Scaffolded review process for reliable and clear feedback</p>
                 </div>
                 <div class="col">
                     <img src="assets/benefitR.svg" width="35%">
                     <h5>Planning & On-the-Job</h5>
-                    <p>Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero
-                    labore et dolore.</p>
+                    <p>Structured planning and reflection for On-the-Job Transfer</p>
                 </div>
             </div>
         </div>
