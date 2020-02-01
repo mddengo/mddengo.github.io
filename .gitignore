@@ -3,9 +3,6 @@
 
 src/.DS_Store
 .DS_Store
-src/images/*
-src/photography/*
-src/files/resume.pdf
 
 #
 .sass-cache/*
@@ -13,3 +10,5 @@ src/files/resume.pdf
 config.rb
 
 *.icloud
+
+node_modules/
