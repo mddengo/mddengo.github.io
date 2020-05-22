@@ -2,7 +2,7 @@
 .idea/
 
 src/.DS_Store
-.DS_Store
+src/files/.DS_Store
 
 #
 .sass-cache/*
