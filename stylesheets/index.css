@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /* line 11, ../sass/index.scss */
 .splash .container {
+  padding-top: 15%;
   position: relative;
 }
 /* line 13, ../sass/index.scss */
@@ -45,7 +46,6 @@ h1, h2, h3, h4, h5, h6, p {
 /* line 22, ../sass/index.scss */
 .splash .container h1 {
   font-size: 4em;
-  margin-top: 15%;
   color: #222b28;
   text-align: center;
   letter-spacing: 0.1em;

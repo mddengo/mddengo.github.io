@@ -101,7 +101,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /* line 75, ../sass/art.scss */
 .art-container .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
